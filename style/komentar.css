@@ -1,0 +1,137 @@
+body {
+    padding-top: 4rem;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    background: linear-gradient(to bottom, #76453B, #C38154, #F1E4C3);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background: linear-gradient(to right, #3A4D39, #4F6F52);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.photo-summary {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.photo-summary img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo-summary img:hover {
+    transform: scale(1.1);
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.comment-card {
+    width: 70%;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #F8F4EC, #C3E2C2);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-card .user {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #557C55;
+}
+
+.comment-card .content {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.comment-card .date {
+    color: #000;
+    font-size: 0.8rem;
+    align-self: flex-end;
+}
+
+.comment-form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comment-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.comment-form input[type="submit"] {
+    width: 100px;
+    align-self: flex-end;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7A9D54;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #557A46;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.button-group .btn {
+    flex: 1;
+    margin: 0 5px;
+}
+.btn-secondary {
+    background-color: #7A9D54;;
+    border-color: #7A9D54;;
+}
+
+.btn-secondary:hover {
+    background-color: #557A46;
+    border-color: #557A46;
+}

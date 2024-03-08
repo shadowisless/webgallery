@@ -1,0 +1,158 @@
+body {
+    padding-top: 4rem;
+    font-family: "Comfortaa", sans-serif;
+    background: linear-gradient(to bottom, #76453B, #C38154, #F1E4C3);
+    color: #fff;
+    
+}
+
+.navbar {
+    background: linear-gradient(to right, #3A4D39, #4F6F52);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-body {
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-body.hidden {
+    max-height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #304D30;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 0.9;
+    color: #241468;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.card-img-top.clicked {
+    transform: scale(1);
+}
+
+.btn-primary,
+.btn-secondary {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #4F6F52;
+    border-color: #4F6F52;
+}
+
+.btn-primary:hover {
+    background-color: #3A4D39;
+    border-color: #3A4D39;
+}
+
+.btn-secondary {
+    background-color: #7A9D54;
+    border-color: #7A9D54;
+}
+
+.btn-secondary:hover {
+    background-color: #557A46;
+    border-color: #557A46;
+}
+
+.footer {
+    background: linear-gradient(to right, #9DBC98, #597E52);
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #ccc;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.feature-description {
+    font-size: 1rem;
+    color: #aaa;
+}
+.search-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-form .form-control {
+    border-radius: 10px;
+}
+
+.search-form .btn {
+    border-radius: 10px;
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+.search-form .btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
